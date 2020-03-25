@@ -9,6 +9,6 @@ response = ur.urlopen(image_url)
 # with open('qing.jpg','wb') as fp:
 #     fp.write(response.read())
 
-# 另一个写入方式
+# 另一个写入方式,直接写入到本地
 ur.urlretrieve(image_url, 'chun.jpg')
 
